@@ -57,4 +57,4 @@ pip3 install pyinstaller
 cls
 echo Succesfull
 PING localhost -n 5 >NUL
-start START.bat
+start WEDShdsIT.bat

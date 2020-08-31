@@ -1,20 +1,5 @@
 echo off
 cls
-echo SpyRat by Olivier/SympactDev
-PING localhost -n 5 >NUL
-cls
-echo ---------- CHECKING PIPS, MODULES, APIS, VS32 ----------
-PING localhost -n 3 >NUL
-echo ---------- CHECKING IF RUSSIAN GOVERMENT IS ON YOUR PC JKJKJKKKKJKJKJKJKJKJKJKJKJKJKJ ----------
-PING localhost -n 3 >NUL
-cls
-echo --------- WeLcOmE tO sPy-RaT bY oLiViEr/SyMpAcT ----------------
-PING localhost -n 2 >NUL
-echo STARTING....
-PING localhost -n 5 >NUL
-echo Made By Sympact/Olivier
-PING localhost -n 5 >NUL
-cls
 echo Copyright Sympact
 :choice
 set /P c=Do you want to install[I] Delete[D] or create rat[C](FIRST EDIT RAT.PY BEFORE CREATING)

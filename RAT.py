@@ -31,7 +31,7 @@ ProcessName = 'SystemRecovery.exe'
 # Display a message at first start
 DisplayMessageBox = True
 # Your Message (will be displayed at start)
-Message = 'Please Turn Off all antivirusses PERMANENTLY to equip this tool!!!!!!!!!!'
+Message = 'Copyright SympactDev'
 
 
 # Directory for saving trojan temporary files

